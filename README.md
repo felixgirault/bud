@@ -3,8 +3,8 @@ Bud
 
 Bud extends the [Pimple](https://github.com/fabpot/Pimple) container with alternative access methods.
 
-Example
--------
+Examples
+--------
 
 Standard Pimple methods:
 
