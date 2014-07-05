@@ -1,0 +1,27 @@
+{
+	"name": "fg/bud",
+	"type": "library",
+	"description": "Extends the Pimple container with alternative access methods.",
+	"version": "0.1.0",
+	"authors": [{
+		"name": "Félix Girault",
+		"email": "felix.girault@gmail.com",
+		"homepage": "http://www.felix-girault.fr",
+		"role": "Developer"
+	}],
+	"keywords": [
+		"dependency injection",
+		"container"
+	],
+	"license": "BSD-2-Clause",
+	"homepage": "http://github.com/felixgirault/bud",
+	"require": {
+		"php": ">=5.3.0",
+		"pimple/pimple": "2.1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bud\\": "lib/Bud"
+		}
+	}
+}
